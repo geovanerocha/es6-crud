@@ -1,15 +1,14 @@
 /*
- * modules/DialsService.js
+ * modules/UserService.js
  */
 
  import UserFactory from '../factories/UserFactory';
  import Modal from '../modules/ModalModule';
  import _ from 'lodash';
 
-class UserService {
+export default class UserService {
 
 	constructor(){
-		console.log(_);
 	}
 
 	static set_storage() {
@@ -147,5 +146,3 @@ class UserService {
 
 
 }
-
-export default UserService;
