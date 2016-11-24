@@ -1,5 +1,5 @@
 /*
- * modules/DialsFactory.js
+ * modules/UserFactory.js
  */
 
 import User from '../models/UserModel';
