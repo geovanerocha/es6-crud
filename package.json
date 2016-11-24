@@ -1,0 +1,27 @@
+{
+  "name": "es6-test",
+  "version": "0.0.1",
+  "description": "test with es6",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "webpack-dev-server"
+  },
+  "keywords": [
+    "test",
+    "es6"
+  ],
+  "author": "Geovane Rocha do Carmo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "hotnode": "0.0.8",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.2"
+  }
+}

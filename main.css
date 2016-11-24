@@ -1,0 +1,136 @@
+*{padding:0; margin:0;}
+
+body{
+  font-family: Arial;
+}
+
+.wrapper{
+	max-width: 1280px;
+	width: 100%;
+	min-width: 640px;
+	margin: 50px auto;
+}
+
+#modal {
+	opacity: 0;
+	position: absolute;
+	top: -100%;
+	left: 0;
+	background: rgba(255, 255, 255, .9);
+	width: 100vw;
+	height: 100vh;
+	transition: opacity 0.5s ease-out;
+}
+
+#modal.fade-in{
+	opacity: 1;
+	top: 0;
+}
+
+#modal .modal-wrapper{
+	margin: 50px auto;
+	max-width: 800px;
+	width: 100%;
+	min-width: 320px;
+	position: relative;
+}
+
+#modal .close{
+	position: absolute;
+	right: 0;
+	background: #e2e2e2;
+	padding: 5px;
+	font-weight: bold;
+	color: #000;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#modal .content{
+	padding-top: 50px;
+}
+
+
+/*TABLE*/
+
+table{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  border: 1px solid #e2e2e2;
+  padding: 20px;
+  box-shadow: 1px 1px 22px -4px #a0a0a0;
+  border-radius: 20px;
+}
+
+table thead{
+background: #e2e2e2;
+}
+
+table tr:focus{
+  background: #e2e2e2;
+  outline: 0;
+  transition: background 0.2s ease-out;
+}
+
+table tr{
+	padding: 10px;
+}
+
+.modal-wrapper .content > * {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.modal-wrapper .content button{
+	border: none;
+	background: #1164a6;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+.modal-wrapper .content button:hover{
+	opacity: .9;
+}
+
+.modal-wrapper .content > input{
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #e2e2e2;
+	outline: none;
+	color: #1164a6;
+	font-weight: bold;
+}
+
+.compare-text{
+	text-align: center;
+	font-size: 22px;
+	color: #1164a6;
+	font-weight: bold;
+}
+
+#add-user{
+	background: #1164a6;
+	color: #FFF;
+	border-radius: 5px;
+	border: none;
+	float: right;
+	clear: both;
+	padding: 5px;
+	cursor: pointer;
+
+}
+
+.edit-user, .remove-user{
+	background: #1164a6;
+	color: #FFF;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}

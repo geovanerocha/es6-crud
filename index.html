@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ES6 Test</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="wrapper">
+		<p class="compare-text">Cadastro</p>
+		<button id="add-user">Adicionar Usuário</button>
+		<table>
+			<thead class="table-head">
+				<tr>
+					<td>Nome Completo</td>
+					<td>Tipo sanguíneo</td>
+					<td>Data de nascimento</td>
+				</tr>
+			</thead>
+			<tbody id="table-content"></tbody>
+			<tfoot class="table-footer"></tfoot>
+		</table>
+	</div>
+	<div id="modal">
+		<div class="modal-wrapper">
+			<span class="close">X</span>
+			<div class="content">
+				<input type="text" id="name" data-type="name" placeholder="Nome" />
+				<input type="text" id="surname" data-type="surname" placeholder="Sobrenome" />
+				<input type="text" id="bloodType" data-type="bloodType" placeholder="Tipo sanguíneo" />
+				<input type="date" id="birthDate" data-type="birthDate" placeholder="Data de Nascimento" />
+				<button id="event-add">Adicionar</button>
+			</div>
+		</div>
+	</div>
+	<script src="bundle.js"></script>
+</body>
+</html>
