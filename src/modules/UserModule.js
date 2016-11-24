@@ -1,5 +1,5 @@
 /*
- * modules/ModalModule.js
+ * modules/UserModule.js
  */
 
 import UserService from '../services/UserService';
